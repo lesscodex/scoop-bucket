@@ -1,0 +1,37 @@
+{
+    "version": "10.4.5.0",
+    "description": "A powerful and useful tool for Office deployments",
+    "homepage": "https://otp.landian.vip",
+    "license": "Freeware",
+    "notes": "A little better than extras/office-tool-plus",
+    "suggest": {
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+    },
+    "url": "https://download.coolhub.top/Office_Tool_Plus/10.4.5.0/Office_Tool_v10.4.5.0_x64.zip",
+    "hash": "99e3d202850d8db105a2a403bd63de1d44444602e32a4ef7ccdb84588f6004cd",
+    "extract_dir": "Office Tool",
+    "bin": [
+        "Office Tool Plus.exe",
+        "Office Tool Plus.Console.exe"
+    ],
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ],
+        [
+            "Office Tool Plus.Console.exe",
+            "Office Tool Plus Console"
+        ]
+    ],
+    "persist": "Office",
+    "checkver": {
+        "github": "https://github.com/YerongAI/Office-Tool"
+    },
+    "autoupdate": {
+        "url": "https://download.coolhub.top/Office_Tool_Plus/$version/Office_Tool_v$version_x64.zip",
+        "hash": {
+            "url": "https://download.coolhub.top/Office_Tool_Plus/$version/Office_Tool_v$version_x64.zip.sha256"
+        }
+    }
+}
