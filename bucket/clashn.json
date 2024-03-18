@@ -1,0 +1,28 @@
+{
+    "version": "2.20",
+    "description": "A clash client for Windows, supports Clash core and Clash.Meta core",
+    "homepage": "https://github.com/2dust/clashN",
+    "license": "GPL-3.0-only",
+    "suggest": {
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+    },
+    "url": "https://github.com/2dust/clashN/releases/download/2.20/clashN.zip",
+    "hash": "d185c7f977132dbcd77c6bf0cc6884a48ff41359e6b73b3adb0d6b16715fb913",
+    "extract_dir": "clashN",
+    "bin": "clashN.exe",
+    "shortcuts": [
+        [
+            "clashN.exe",
+            "clashN"
+        ]
+    ],
+    "persist": [
+        "guiConfigs",
+        "guiBackups",
+        "guiLogs"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "version": "9.9.7-240305",
+    "description": "Tencent QQ NT Edition",
+    "homepage": "https://im.qq.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://ti.qq.com/agreement/index.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.7_240305_x64_01.exe#/dl.7z",
+            "hash": "18ff4722148ca302bac9cbf25d5d104ed30778824921822520bf15bc8d41ac7f"
+        },
+        "32bit": {
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.7_240305_x86_01.exe#/dl.7z",
+            "hash": "89f0046c71938262261b2f976eee6246d91af58e66316f287e6aa75559bed9d6"
+        }
+    },
+    "extract_dir": "Files",
+    "shortcuts": [["QQ.exe", "QQ"]],
+    "checkver": {
+        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
+        "regex": "ntDownloadX64Url.*/qqfile/qq/QQNT/Windows/QQ_(?<coreVersion>[\\d.]+)_(?<buildVersion>[\\d.]+)_x64_(?<number>[\\d.]+)\\.exe",
+        "replace": "${coreVersion}-${buildVersion}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreVersion_$matchBuildVersion_x64_$matchNumber.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreVersion_$matchBuildVersion_x86_$matchNumber.exe#/dl.7z"
+            }
+        }
+    }
+}

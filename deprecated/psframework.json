@@ -1,0 +1,15 @@
+{
+    "version": "1.10.317",
+    "description": "WinUtils is a set of utilities for Windows",
+    "homepage": "https://www.powershellgallery.com/packages/PSFramework",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://files.lesscode.dev/scoop/WinUtils.v0.1.0.zip",
+            "hash": "c7a00b57db9f1639af13bef5722b5a3fe3db4ca65be433401ae5c25a850b597f"
+        }
+    },
+    "psmodule": {
+        "name": "PSFramework"
+    }
+}
