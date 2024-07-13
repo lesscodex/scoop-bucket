@@ -1,5 +1,5 @@
 {
-    "version": "9.9.7-240305",
+    "version": "9.9.11-240606",
     "description": "Tencent QQ NT Edition",
     "homepage": "https://im.qq.com/",
     "license": {
@@ -8,28 +8,33 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.7_240305_x64_01.exe#/dl.7z",
-            "hash": "18ff4722148ca302bac9cbf25d5d104ed30778824921822520bf15bc8d41ac7f"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x64_01.exe#/dl.7z",
+            "hash": "281931793c9260c7f220b34e16517f8fb577026186e6c1c94f7eac6489861543"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.7_240305_x86_01.exe#/dl.7z",
-            "hash": "89f0046c71938262261b2f976eee6246d91af58e66316f287e6aa75559bed9d6"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x86_01.exe#/dl.7z",
+            "hash": "c14106bfff6ef44a006fc5a6bf8927933e67e8f9d30502f4d54d0736c790cfd4"
         }
     },
     "extract_dir": "Files",
-    "shortcuts": [["QQ.exe", "QQ"]],
+    "shortcuts": [
+        [
+            "QQ.exe",
+            "QQ"
+        ]
+    ],
     "checkver": {
         "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
-        "regex": "ntDownloadX64Url.*/qqfile/qq/QQNT/Windows/QQ_(?<coreVersion>[\\d.]+)_(?<buildVersion>[\\d.]+)_x64_(?<number>[\\d.]+)\\.exe",
-        "replace": "${coreVersion}-${buildVersion}"
+        "regex": "ntDownloadX64Url.*/qqfile/qq/QQNT/Windows/QQ_(?<coreversion>[\\d.]+)_(?<buildversion>[\\d.]+)_x64_(?<number>[\\d.]+)\\.exe",
+        "replace": "${coreversion}-${buildversion}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreVersion_$matchBuildVersion_x64_$matchNumber.exe#/dl.7z"
+                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreversion_$matchBuildversion_x64_$matchNumber.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreVersion_$matchBuildVersion_x86_$matchNumber.exe#/dl.7z"
+                "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$matchCoreversion_$matchBuildversion_x86_$matchNumber.exe#/dl.7z"
             }
         }
     }
