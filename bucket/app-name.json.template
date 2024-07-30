@@ -5,6 +5,8 @@
     "homepage": "",
     "license": "",
     "notes": "",
+    "depends": "",
+    "suggest": "",
     "architecture": {
         "64bit": {
             "url": "",
@@ -19,6 +21,8 @@
             "hash": ""
         }
     },
+    "extract_dir": "",
+    "extract_to": "",
     "pre_install": "",
     "installer": {
         "script": ""
@@ -27,14 +31,24 @@
         "",
         ""
     ],
+    "pre_uninstall": "",
     "uninstaller": {
         "script": ""
     },
+    "post_uninstall": [
+        "",
+        ""
+    ],
     "bin": "",
+    "shortcuts": "",
     "env_add_path": [
         "",
         ""
     ],
+    "env_set": {
+        "a": "b",
+        "x": "y"
+    }
     "persist": [
         "",
         ""
