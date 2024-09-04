@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0-rc.9",
+    "version": "3.0.0-rc.1",
     "description": "Watt Toolkit is an open source cross-platform multi-purpose game toolkit.",
     "homepage": "https://steampp.net",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/rmbgame/SteamTools/releases/download/3.0.0-rc.9/Steam%20%20_v3.0.0-rc.9_win_x64.7z",
-            "hash": "402a76e2f8bd0c6fc2592db05062b3de35635f2ab02ef0aceb53e177b4e810fe"
+            "url": "https://gitee.com/rmbgame/SteamTools/releases/download/3.0.0-rc.1/Steam%20%20_v3.0.0-rc.1_win_x64.7z",
+            "hash": "ab9e678e1290b71c14ec8678fa1f5937e6cb2f8fa54038efc9705031c8c6d1d5"
         }
     },
     "shortcuts": [
