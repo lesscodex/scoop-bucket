@@ -1,5 +1,5 @@
 {
-    "version": "4.8.1",
+    "version": "4.8.2",
     "description": "Compute and Check Hashes with One Click.",
     "homepage": "https://www.binaryfortress.com/HashTools",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://binaryfortressdownloads.com/Download/BFSFiles/109/HashTools-4.8.1-x64.zip",
-            "hash": "sha1:3193d535193d6f20071f6200c0965e72ec73c58c",
+            "url": "https://binaryfortressdownloads.com/Download/BFSFiles/109/HashTools-4.8.2-x64.zip",
+            "hash": "sha1:7c6714735d574f68954d4124d29ce3bd9cf8a16c",
             "extract_dir": "HashTools64"
         }
     },
