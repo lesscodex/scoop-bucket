@@ -1,5 +1,5 @@
 {
-    "version": "10.19.8.0",
+    "version": "10.20.15.0",
     "description": "A powerful and useful tool for Office deployments",
     "homepage": "https://otp.landian.vip",
     "license": "Freeware",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.coolhub.top/Office_Tool_Plus/10.19.8.0/Office_Tool_v10.19.8.0_x64.zip",
-            "hash": "7ddb47696a0aaafbd475728fbf6d4c6d1735465c9c924dac06f498c8e08bd0bd"
+            "url": "https://download.coolhub.top/Office_Tool_Plus/10.20.15.0/Office_Tool_v10.20.15.0_x64.zip",
+            "hash": "988ed6e589b5117d0a9ce4c29dd9bbc5af1437784892f6a25ac147e6d4ed0033"
         }
     },
     "extract_dir": "Office Tool",
