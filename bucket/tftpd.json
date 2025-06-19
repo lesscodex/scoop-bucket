@@ -8,15 +8,19 @@
             "url": "https://github.com/kr105/tftpd64/releases/download/v4.64/tftpd64-x64-v4.64.zip",
             "hash": "de420761400500a8f942057966d85c3dec4d4f3eb72e148046b5c69b344e0274",
             "bin": [
-                "tftpd64.exe",
+                "tftpd32.x64.exe",
                 [
-                    "tftpd64.exe",
+                    "tftpd32.x64.exe",
+                    "tftpd64"
+                ],
+                [
+                    "tftpd32.x64.exe",
                     "tftpd"
                 ]
             ],
             "shortcuts": [
                 [
-                    "tftpd64.exe",
+                    "tftpd32.x64.exe",
                     "Tftpd"
                 ]
             ]
@@ -25,15 +29,19 @@
             "url": "https://github.com/kr105/tftpd64/releases/download/v4.64/tftpd64-x86-v4.64.zip",
             "hash": "68bb4a0fa26870e6d94d91d7e3b63b041b6aa00ed13532b93ff1cb4dbe86c589",
             "bin": [
-                "tftpd32.exe",
+                "tftpd32.x86.exe",
                 [
-                    "tftpd32.exe",
+                    "tftpd32.x86.exe",
+                    "tftpd32"
+                ],
+                [
+                    "tftpd32.x86.exe",
                     "tftpd"
                 ]
             ],
             "shortcuts": [
                 [
-                    "tftpd32.exe",
+                    "tftpd32.x86.exe",
                     "Tftpd"
                 ]
             ]
