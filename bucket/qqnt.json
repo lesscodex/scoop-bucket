@@ -1,5 +1,5 @@
 {
-    "version": "9.9.20-250616",
+    "version": "9.9.11-240606",
     "description": "Tencent QQ NT Edition",
     "homepage": "https://im.qq.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.20_250616_x64_01.exe#/dl.7z",
-            "hash": "fa77bc3328820c6185a3dee438b48193c0df3e811f4610a2aff27b7d0ea2e9b5"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x64_01.exe#/dl.7z",
+            "hash": "281931793c9260c7f220b34e16517f8fb577026186e6c1c94f7eac6489861543"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.20_250616_x86_01.exe#/dl.7z",
-            "hash": "beb758cc400244b9da2ed9973da472a3d619480086c0019c08226f0529615050"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x86_01.exe#/dl.7z",
+            "hash": "c14106bfff6ef44a006fc5a6bf8927933e67e8f9d30502f4d54d0736c790cfd4"
         }
     },
     "extract_dir": "Files",
