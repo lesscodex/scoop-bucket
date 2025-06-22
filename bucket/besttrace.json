@@ -1,15 +1,22 @@
 {
-    "version": "3.9.4",
+    "version": "3.8.0",
     "description": "Initiate a traceroute request from your device with the link visualization.",
     "homepage": "https://www.ipip.net/product/client.html",
     "license": "Freeware",
     "url": "https://cdn.ipip.net/17mon/besttrace.exe",
-    "hash": "53d3632ff587f7dacea563031cf40d097764b8392d339b7a2e158ce375270089",
+    "hash": "",
     "innosetup": true,
     "bin": "17monipdb.exe",
     "shortcuts": [
-        ["17monipdb.exe", "Best Trace"],
-        ["17monipdb.exe", "Best Trace Route", "tracert"]
+        [
+            "17monipdb.exe",
+            "Best Trace"
+        ],
+        [
+            "17monipdb.exe",
+            "Best Trace Route",
+            "tracert"
+        ]
     ],
     "checkver": {
         "url": "https://www.ipip.net/product/client.html",
