@@ -1,13 +1,13 @@
 {
-    "version": "9.44.0.0",
+    "version": "9.47.0.0",
     "description": "The official client of YY, a Chinese video-based social network.",
     "homepage": "https://www.yy.com/",
     "license": {
         "identifier": "EULA",
         "url": "https://zc.yy.com/license.html"
     },
-    "url": "https://yydl.yy.com/4/setup/YYSetup-9.44.0.0-zh-CN.exe#/dl.7z",
-    "hash": "2eb3367d928e756bb4c638d204e4f71b8f8f407094ef227ba4017169fedf38da",
+    "url": "https://yydl.yy.com/4/setup/YYSetup-9.47.0.0-zh-CN.exe#/dl.7z",
+    "hash": "893bc783d80d425b49f4971f0b4902fc7df8a51b54964c6d1df65490eff90071",
     "extract_dir": "InstallDir",
     "shortcuts": [
         [
