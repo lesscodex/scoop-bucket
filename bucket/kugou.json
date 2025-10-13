@@ -1,5 +1,5 @@
 {
-    "version": "20.0.61",
+    "version": "20.0.70",
     "description": "Hello, KuGou! - The largest P2P music sharing software in China.",
     "homepage": "https://www.kugou.com",
     "license": {
@@ -10,7 +10,7 @@
         "sudo": "main/gsudo"
     },
     "url": "https://download.kugou.com/dl/kugou_pc#/dl.7z",
-    "hash": "61f5f98986c26fc0b05e14876ad53ef9c510c8a5c60155378ae696a1c3d1ac41",
+    "hash": "87e1350e55e6ce548b52005b5bc79c416c86750d22dd3cfb9312c90577bf8b04",
     "pre_install": "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
     "installer": {
         "script": [
