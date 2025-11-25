@@ -1,13 +1,13 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "2.0.50",
+    "version": "2.0.52",
     "description": "Claude Code is an agentic coding tool that lives in your terminal.",
     "homepage": "https://github.com/anthropics/claude-code",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.50/win32-x64/claude.exe",
-            "hash": "4bfb8bf794484cbf4902baed20bfdd631f17e01c4b027d841c1903ece2eb44f5"
+            "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/win32-x64/claude.exe",
+            "hash": "f8da34149d461b21a5a91791017caf7e4ff71cac91e1f95aea09c284b2920559"
         }
     },
     "bin": "claude.exe",
