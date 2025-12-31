@@ -1,18 +1,18 @@
 {
     "##": "Downloading from the official source requires an auth-key.",
-    "version": "7.3.0",
+    "version": "7.5.0",
     "description": "Next-generation productivity tool platform.",
     "homepage": "https://www.u-tools.cn/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://open.u-tools.cn/download/uTools-7.3.0.exe#/dl.7z",
-            "hash": "927555fe06899c6de4463ffb50e2863888b12b13f3f82ca5513d3f0fbeafa7be",
+            "url": "https://open.u-tools.cn/download/uTools-7.5.0.exe#/dl.7z",
+            "hash": "cabffa61f4182213270f1102fc3726b2461b8b6ff13e096b32e75d1ca9d91e9a",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
         },
         "32bit": {
-            "url": "https://open.u-tools.cn/download/uTools-7.3.0-ia32.exe#/dl.7z",
-            "hash": "cfd2993ea3756d2a40cc14c91e199bc7ce3a8e35b5169ed4347ee2c0d1646ffe",
+            "url": "https://open.u-tools.cn/download/uTools-7.5.0-ia32.exe#/dl.7z",
+            "hash": "238af1ab2865699c7adfda34158f6b5ae5e6efdd949ae701dab1f276c6c7d6d0",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal"
         }
     },
