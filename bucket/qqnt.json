@@ -1,5 +1,5 @@
 {
-    "version": "9.9.31-260528",
+    "version": "9.9.33-260813",
     "description": "Tencent QQ NT Edition",
     "homepage": "https://im.qq.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_x64_01.exe#/dl.7z",
-            "hash": "0beb5cb4ff776cba822caa0abadbd53f5892f12628a86dabea1b372c82c086bc"
+            "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x64_01.exe#/dl.7z",
+            "hash": "b25c0d3ce9df764074a9118d0ded927e1b2d7ebf60e306112e8df18a040ec492"
         },
         "32bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_x86_01.exe#/dl.7z",
-            "hash": "3d5841389abaf7c552363d84543a06734939aa2abdf6599fee11f6565ca43db1"
+            "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x86_01.exe#/dl.7z",
+            "hash": "fd7214c7a70a6e0eb46781e0d653d5c56b0d496d2f710b4d5c07939c40b73be6"
         }
     },
     "extract_dir": "Files",
@@ -24,17 +24,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js",
-        "regex": "ntDownloadX64Url.*/qqfile/QQNT/[\\d.]+/release/(?<release>[^/]+)/QQ_(?<coreversion>[\\d.]+)_(?<buildversion>[\\d.]+)_x64_(?<number>[\\d.]+)\\.exe",
+        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/pcConfig.json",
+        "regex": "ntDownloadX64Url.*/qqfile/QQNTV2/[\\d.]+/release/(?<release>[^/]+)/QQ_(?<coreversion>[\\d.]+)_(?<buildversion>[\\d.]+)_x64_(?<number>[\\d.]+)\\.exe",
         "replace": "${coreversion}-${buildversion}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$matchCoreversion/release/$matchRelease/QQ_$matchCoreversion_$matchBuildversion_x64_$matchNumber.exe#/dl.7z"
+                "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$matchCoreversion/release/$matchRelease/QQ_$matchCoreversion_$matchBuildversion_x64_$matchNumber.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$matchCoreversion/release/$matchRelease/QQ_$matchCoreversion_$matchBuildversion_x86_$matchNumber.exe#/dl.7z"
+                "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$matchCoreversion/release/$matchRelease/QQ_$matchCoreversion_$matchBuildversion_x86_$matchNumber.exe#/dl.7z"
             }
         }
     }
