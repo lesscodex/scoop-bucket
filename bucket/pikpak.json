@@ -1,15 +1,15 @@
 {
-    "version": "2.8.5",
+    "version": "2.15.2",
     "description": "PikPak is a private cloud drive that can save your favorite files at high speed.",
     "homepage": "https://mypikpak.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://mypikpak.com/policy/user-agreement"
     },
-    "url": "https://static.mypikpak.com/desktop/official_PikPak.exe#/dl.7z",
-    "hash": "d819840bac1cd2439a88751fa48a6f77a7ad49bd07da242eb7a7d88cfd792944",
+    "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z",
+    "hash": "37eb31b25192a7db6ad8ea9607c28a68718bc8b9cbca8edf6c0b4306fa76496b",
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
     ],
     "installer": {
@@ -49,6 +49,6 @@
         "regex": "PikPak\\sV(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "url": "https://static.mypikpak.com/desktop/official_PikPak.exe#/dl.7z"
+        "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z"
     }
 }
